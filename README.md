@@ -6,9 +6,11 @@ Built with [Three.js](https://threejs.org/) for rendering and [cannon-es](https:
 
 ## Play
 
-**Option 1: offline file (easiest).** Download [`Portal-Playground-offline.html`](Portal-Playground-offline.html) and open it in Chrome, Edge, Firefox, or Safari. Everything is bundled into that one file, so it works without an internet connection.
+Option 1: GitHub Pages — visit https://cyber-cross.github.io/portal-playground/
 
-**Option 2: from source.** Open `index.html` through a web server. It loads Three.js and cannon-es from the unpkg CDN, so it needs an internet connection. For example:
+**Option 2: offline file .** Download [`Portal-Playground-offline.html`](Portal-Playground-offline.html) and open it in Chrome, Edge, Firefox, or Safari. Everything is bundled into that one file, so it works without an internet connection.
+
+**Option 3: from source.** Open `index.html` through a web server. It loads Three.js and cannon-es from the unpkg CDN, so it needs an internet connection. For example:
 
 ```sh
 python3 -m http.server 8000
